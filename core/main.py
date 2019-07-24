@@ -1,6 +1,7 @@
 from data.users import dict_users_pass_log_in
 from services.verifies import is_registered, is_logged, right_password
 
+
 string = str(input())
 while string != "exit":
     words = list(map(str, string.split()))
