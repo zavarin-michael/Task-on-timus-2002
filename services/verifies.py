@@ -1,7 +1,6 @@
 from data.users import dict_users_pass_log_in
 
 
-
 def is_registered(user):
     if user in dict_users_pass_log_in:
         return True
@@ -19,3 +18,4 @@ def right_password(user ,password):
         return True
     else:
         return False
+
